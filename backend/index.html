@@ -1,460 +1,170 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>DevSolutech — Bots de WhatsApp</title>
-  <link rel="stylesheet" href="styles.css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>DevSolutech</title>
+<link rel="stylesheet" href="styles.css">
 </head>
-<body>
 
-  <!-- Top Glow -->
-  <div class="bg-glow"></div>
+<body class="page-enter">
 
-  <!-- NAVBAR -->
-  <header class="nav">
-    <div class="wrap nav-inner">
-      <div class="brand">
-        <span class="logo-dot"></span>
-        <span class="brand-name">DevSolutech</span>
-      </div>
-
-      <nav class="nav-links">
-        <a href="#solucoes">Soluções</a>
-        <a href="#recursos">Recursos</a>
-        <a href="#planos">Planos</a>
-        <a href="#depoimentos">Avaliações</a>
-      </nav>
-
-      <div class="nav-cta">
-        <a class="btn ghost" href="#planos">Ver planos</a>
-        <a class="btn primary" href="/auth/google">Entrar com Google</a>
-      </div>
-    </div>
-  </header>
-
-  <!-- HERO -->
-  <section class="hero" id="topo">
-    <div class="wrap hero-grid">
-      <div class="hero-left">
-        <span class="pill">🇧🇷 Para pequenos comércios</span>
-
-        <h1 class="h1">
-          A plataforma completa para suas
-          <span class="accent">vendas automáticas</span> no WhatsApp
-        </h1>
-
-        <p class="lead">
-          Atendimento 24/7, cardápio/portfólio automático, respostas inteligentes e pedidos organizados.
-          Perfeito para lanchonetes, lojas e mercados.
-        </p>
-
-        <div class="hero-actions">
-          <a class="btn primary big" href="/auth/google">Testar gratuitamente</a>
-          <a class="btn ghost big" href="#recursos">Ver recursos</a>
-        </div>
-
-        <div class="badges">
-          <div class="badge">⚡ Setup rápido</div>
-          <div class="badge">🔒 Seguro</div>
-          <div class="badge">📈 Aumenta conversão</div>
-          <div class="badge">💬 WhatsApp focado</div>
-        </div>
-      </div>
-
-      <div class="hero-right">
-        <div class="phone">
-          <div class="phone-top">
-            <div class="cam"></div>
-            <div class="speaker"></div>
-          </div>
-
-          <div class="phone-screen">
-            <div class="notif">
-              <div class="dot"></div>
-              <div class="notif-text">
-                <strong>Nova venda</strong>
-                <span>Pedido #219 • R$ 49,90</span>
-              </div>
-              <span class="tag ok">Aprovado</span>
-            </div>
-
-            <div class="notif">
-              <div class="dot"></div>
-              <div class="notif-text">
-                <strong>Cliente respondeu</strong>
-                <span>“Quero o combo 2”</span>
-              </div>
-              <span class="tag info">Auto</span>
-            </div>
-
-            <div class="notif">
-              <div class="dot"></div>
-              <div class="notif-text">
-                <strong>Bot enviou</strong>
-                <span>Cardápio + link de pagamento</span>
-              </div>
-              <span class="tag ok">Enviado</span>
-            </div>
-
-            <div class="mini-stats">
-              <div class="mini">
-                <span class="mini-k">+38%</span>
-                <span class="mini-l">Conversão</span>
-              </div>
-              <div class="mini">
-                <span class="mini-k">24/7</span>
-                <span class="mini-l">Atendimento</span>
-              </div>
-              <div class="mini">
-                <span class="mini-k">-60%</span>
-                <span class="mini-l">Tempo</span>
-              </div>
-            </div>
-
-            <div class="phone-gradient"></div>
-          </div>
-        </div>
-
-        <div class="floating-money">
-          <div class="money-card">
-            <span class="money-icon">💰</span>
-            <div>
-              <strong>Vendas automatizadas</strong>
-              <p>Mais pedidos sem ficar online.</p>
-            </div>
-          </div>
-          <div class="money-arrow">↗</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SOLUÇÕES -->
-  <section class="section" id="solucoes">
-    <div class="wrap">
-      <div class="section-title">
-        <span class="kicker">Múltiplos usos</span>
-        <h2>Soluções prontas para o seu negócio</h2>
-        <p>Escolha um modelo e personalize em minutos.</p>
-      </div>
-
-      <div class="cards-3">
-        <div class="card glow">
-          <h3>🍔 Lanchonetes</h3>
-          <p>Cardápio, combos, adicionais e pedidos organizados automaticamente.</p>
-          <ul class="list">
-            <li>Pedidos com endereço</li>
-            <li>Horário de funcionamento</li>
-            <li>Confirmação automática</li>
-          </ul>
-        </div>
-
-        <div class="card">
-          <h3>👕 Loja de roupa</h3>
-          <p>Catálogo, tamanhos, cores e atendimento rápido com respostas prontas.</p>
-          <ul class="list">
-            <li>Catálogo por categoria</li>
-            <li>FAQ automático</li>
-            <li>Captura de leads</li>
-          </ul>
-        </div>
-
-        <div class="card">
-          <h3>🛒 Mercados</h3>
-          <p>Lista de compras, confirmação de itens e mensagem de entrega.</p>
-          <ul class="list">
-            <li>Pedidos por lista</li>
-            <li>Mensagens de status</li>
-            <li>Organização por fila</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- NÚMEROS -->
-  <section class="section section-dark">
-    <div class="wrap">
-      <div class="section-title">
-        <span class="kicker">Confiança que se mede</span>
-        <h2>Resultados que aparecem no dia a dia</h2>
-        <p>Menos tempo no atendimento, mais vendas concluídas.</p>
-      </div>
-
-      <div class="stats">
-        <div class="stat">
-          <div class="stat-k">+R$</div>
-          <div class="stat-v">vendas</div>
-          <div class="stat-l">Aumente pedidos com automação.</div>
-        </div>
-        <div class="stat">
-          <div class="stat-k">24/7</div>
-          <div class="stat-v">online</div>
-          <div class="stat-l">Atenda mesmo enquanto dorme.</div>
-        </div>
-        <div class="stat">
-          <div class="stat-k">+%</div>
-          <div class="stat-v">conversão</div>
-          <div class="stat-l">Respostas rápidas fecham mais.</div>
-        </div>
-        <div class="stat">
-          <div class="stat-k">-min</div>
-          <div class="stat-v">tempo</div>
-          <div class="stat-l">Reduza o trabalho repetitivo.</div>
-        </div>
-      </div>
-
-      <div class="note">
-        * Esses números serão substituídos por métricas reais quando você começar a usar.
-      </div>
-    </div>
-  </section>
-
-  <!-- RECURSOS -->
-  <section class="section" id="recursos">
-    <div class="wrap">
-      <div class="section-title">
-        <span class="kicker">Vá além do básico</span>
-        <h2>Recursos que fazem o bot vender</h2>
-        <p>Recursos essenciais para automatizar atendimento e pedidos.</p>
-      </div>
-
-      <div class="cards-2">
-        <div class="card feature-card">
-          <div class="icon">✅</div>
-          <div>
-            <h3>Checkout que converte</h3>
-            <p>Organize o pedido e direcione o cliente para finalizar com clareza.</p>
-            <div class="chips">
-              <span class="chip">+ conversão</span>
-              <span class="chip">fluxo guiado</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="card feature-card">
-          <div class="icon">📊</div>
-          <div>
-            <h3>Relatórios inteligentes</h3>
-            <p>Saiba quais produtos são mais pedidos e horários de pico.</p>
-            <div class="chips">
-              <span class="chip">dados</span>
-              <span class="chip">decisão rápida</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="card feature-card">
-          <div class="icon">🧠</div>
-          <div>
-            <h3>Respostas por palavras-chave</h3>
-            <p>O bot entende comandos simples e responde automaticamente.</p>
-            <div class="chips">
-              <span class="chip">FAQ</span>
-              <span class="chip">cardápio</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="card feature-card">
-          <div class="icon">🔔</div>
-          <div>
-            <h3>Status e confirmações</h3>
-            <p>Confirma pedido, informa preparo e entrega com mensagens automáticas.</p>
-            <div class="chips">
-              <span class="chip">pós-venda</span>
-              <span class="chip">organização</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- PLANOS -->
-  <section class="section section-dark" id="planos">
-    <div class="wrap">
-      <div class="section-title">
-        <span class="kicker">Preço justo</span>
-        <h2>Escolha o plano ideal</h2>
-        <p>Comece simples e evolua conforme seu negócio cresce.</p>
-      </div>
-
-      <div class="pricing">
-  <!-- Plano Básico -->
-  <div class="price-card">
-    <div class="pc-top">
-      <h3>Básico</h3>
-      <p class="pc-sub">Só triagem</p>
+<header class="nav">
+  <div class="wrap nav-inner">
+    <div class="brand">
+      <span class="logo-dot"></span>
+      DevSolutech
     </div>
 
-    <div class="pc-price">
-      <span class="pc-value">R$ 49,99</span><span class="pc-per">/mês</span>
-    </div>
+    <nav class="nav-links">
+      <a href="#solucoes">Soluções</a>
+      <a href="#recursos">Recursos</a>
+      <a href="#planos">Planos</a>
+    </nav>
 
-    <ul class="pc-list">
-      <li>Bot identifica o que o cliente quer</li>
-      <li>Coleta nome + pedido (texto)</li>
-      <li>Repassa tudo para o atendente</li>
-      <li>Respostas automáticas básicas</li>
-      <li>Suporte padrão</li>
-    </ul>
-
-    <a class="btn ghost full" href="/auth/google">Testar grátis</a>
+    <a class="btn primary anim-btn" href="/auth/google">Entrar com Google</a>
   </div>
+</header>
 
-  <!-- Plano Médio (Recomendado) -->
-  <div class="price-card highlight">
-    <div class="ribbon">Recomendado</div>
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap hero-grid">
 
-    <div class="pc-top">
-      <h3>Pro</h3>
-      <p class="pc-sub">Triagem + Produtos</p>
+    <div>
+      <span class="pill">Bots para WhatsApp</span>
+
+      <h1>
+        Automatize as vendas do seu comércio com
+        <span class="accent">atendimento inteligente</span>
+      </h1>
+
+      <p class="lead">
+        Responda clientes automaticamente, mostre produtos e registre pedidos
+        sem precisar ficar online o tempo todo.
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn primary big anim-btn" href="/auth/google">Começar grátis</a>
+        <a class="btn ghost big anim-btn" href="#planos">Ver planos</a>
+      </div>
     </div>
 
-    <div class="pc-price">
-      <span class="pc-value">R$ 99,99</span><span class="pc-per">/mês</span>
+    <div class="hero-card">
+      <div class="notif">
+        <strong>Nova venda</strong>
+        <span>Pedido R$ 62,90 aprovado</span>
+      </div>
+      <div class="notif">
+        <strong>Bot respondeu</strong>
+        <span>Cardápio enviado</span>
+      </div>
+      <div class="notif">
+        <strong>Cliente confirmou</strong>
+        <span>Pedido fechado</span>
+      </div>
     </div>
 
-    <ul class="pc-list">
-      <li>Repassa ao atendente o que o cliente quer</li>
-      <li>Mostra catálogo / produtos automaticamente</li>
-      <li>Respostas por palavras-chave</li>
-      <li>Status/etapas do atendimento</li>
-      <li>Suporte prioritário</li>
-    </ul>
-
-    <a class="btn primary full" href="/auth/google">Assinar agora</a>
   </div>
+</section>
 
-  <!-- Plano Top -->
-  <div class="price-card">
-    <div class="pc-top">
-      <h3>Business</h3>
-      <p class="pc-sub">Pedido automático</p>
+<!-- SOLUÇÕES -->
+<section class="section" id="solucoes">
+  <div class="wrap">
+    <h2>Soluções para pequenos negócios</h2>
+
+    <div class="cards-3">
+      <div class="card">
+        <h3>🍔 Lanchonetes</h3>
+        <p>Cardápio automático e pedidos organizados.</p>
+      </div>
+
+      <div class="card">
+        <h3>👕 Lojas</h3>
+        <p>Catálogo e respostas rápidas de produtos.</p>
+      </div>
+
+      <div class="card">
+        <h3>🛒 Mercados</h3>
+        <p>Lista de compras e confirmação de pedidos.</p>
+      </div>
     </div>
-
-    <div class="pc-price">
-      <span class="pc-value">R$ 149,99</span><span class="pc-per">/mês</span>
-    </div>
-
-    <ul class="pc-list">
-      <li>Repassa ao atendente e registra tudo</li>
-      <li>Catálogo completo com variações</li>
-      <li>Faz o pedido automaticamente</li>
-      <li>Confirmação + resumo do pedido</li>
-      <li>Relatórios e suporte VIP</li>
-    </ul>
-
-    <a class="btn ghost full" href="/auth/google">Falar com vendas</a>
   </div>
-</div>
+</section>
 
-<p class="footnote">
-  * Você pode mudar os preços e recursos depois. Os valores acima são os que você pediu.
-</p>
+<!-- RECURSOS -->
+<section class="section section-dark" id="recursos">
+  <div class="wrap">
+    <h2>Recursos que vendem por você</h2>
+
+    <div class="cards-3">
+      <div class="card">Respostas automáticas</div>
+      <div class="card">Catálogo de produtos</div>
+      <div class="card">Pedidos automáticos</div>
+    </div>
+  </div>
+</section>
+
+<!-- PLANOS -->
+<section class="section section-dark" id="planos">
+  <div class="wrap">
+
+    <div class="section-title">
+      <span class="kicker">Preço justo</span>
+      <h2>Escolha o plano ideal</h2>
+    </div>
+
+    <div class="pricing">
+
+      <!-- Básico -->
+      <div class="price-card">
+        <h3>Básico</h3>
+        <div class="price">R$ 49,99/mês</div>
+
+        <ul>
+          <li>Identifica o que o cliente quer</li>
+          <li>Repassa para atendente</li>
+          <li>Triagem automática</li>
+        </ul>
+
+        <a class="btn ghost full anim-btn" href="/auth/google">Testar</a>
+      </div>
+
+      <!-- Pro -->
+      <div class="price-card highlight">
+        <div class="badge">Recomendado</div>
+        <h3>Pro</h3>
+        <div class="price">R$ 99,99/mês</div>
+
+        <ul>
+          <li>Repassa para atendente</li>
+          <li>Mostra produtos</li>
+          <li>Catálogo automático</li>
+        </ul>
+
+        <a class="btn primary full anim-btn" href="/auth/google">Assinar</a>
+      </div>
+
+      <!-- Business -->
+      <div class="price-card">
+        <h3>Business</h3>
+        <div class="price">R$ 149,99/mês</div>
+
+        <ul>
+          <li>Pedido automático</li>
+          <li>Resumo do pedido</li>
+          <li>Fluxo completo</li>
+        </ul>
+
+        <a class="btn ghost full anim-btn" href="/auth/google">Começar</a>
+      </div>
 
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- DEPOIMENTOS -->
-  <section class="section" id="depoimentos">
-    <div class="wrap">
-      <div class="section-title">
-        <span class="kicker">O que dizem</span>
-        <h2>Clientes que automatizaram e venderam mais</h2>
-        <p>Depoimentos modelo (você troca depois pelos reais).</p>
-      </div>
-
-      <div class="testimonials">
-        <div class="card">
-          <div class="quote">“O bot reduziu meu tempo no atendimento e aumentou os pedidos no horário de pico.”</div>
-          <div class="who">
-            <span class="avatar">LC</span>
-            <div>
-              <strong>Lanchonete Central</strong>
-              <span>Pequeno comércio</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="quote">“Agora o cliente recebe catálogo e responde com ‘1, 2, 3’ e já fecha pedido.”</div>
-          <div class="who">
-            <span class="avatar">MR</span>
-            <div>
-              <strong>Moda Real</strong>
-              <span>Loja de roupas</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="quote">“O fluxo automático organiza tudo. Ficou muito mais profissional.”</div>
-          <div class="who">
-            <span class="avatar">SP</span>
-            <div>
-              <strong>Super Perto</strong>
-              <span>Mercado</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="center">
-        <a class="btn ghost" href="#topo">Voltar ao topo</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- CTA FINAL -->
-  <section class="cta">
-    <div class="wrap cta-inner">
-      <div>
-        <h2>Crie seu bot hoje e comece a vender no automático</h2>
-        <p>Login com Google • Configuração rápida • Visual profissional</p>
-      </div>
-      <a class="btn primary big" href="/auth/google">Começar gratuitamente</a>
-    </div>
-  </section>
-
-  <!-- FOOTER -->
-  <footer class="footer">
-    <div class="wrap footer-grid">
-      <div>
-        <div class="brand footer-brand">
-          <span class="logo-dot"></span>
-          <span class="brand-name">DevSolutech</span>
-        </div>
-        <p class="muted">Bots de WhatsApp para pequenos comércios venderem mais.</p>
-      </div>
-
-      <div>
-        <h4>Soluções</h4>
-        <a href="#solucoes">Lanchonetes</a>
-        <a href="#solucoes">Lojas</a>
-        <a href="#solucoes">Mercados</a>
-      </div>
-
-      <div>
-        <h4>Recursos</h4>
-        <a href="#recursos">Automação</a>
-        <a href="#recursos">Relatórios</a>
-        <a href="#planos">Planos</a>
-      </div>
-
-      <div>
-        <h4>Conta</h4>
-        <a href="/auth/google">Entrar</a>
-        <a href="#planos">Assinar</a>
-      </div>
-    </div>
-    <div class="wrap footer-bottom">
-      <span class="muted">© DevSolutech</span>
-      <span class="muted">Feito para vender com automação.</span>
-    </div>
-  </footer>
+<footer class="footer">
+  DevSolutech ©
+</footer>
 
 </body>
 </html>
